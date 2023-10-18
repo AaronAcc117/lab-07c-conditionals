@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odd Calculator</title>
+</head>
+<body>
+    <script>
+        var firstnum = prompt("Give me a number") ; 
+        var secondnum = prompt(" Okay, give me a second number");
+        var operation = prompt(" And what operation do you want? (mul/div/mod");
+        var answer;
+        if (operation === "mul") {
+         answer = firstnum * secondnum; 
+        } else if (operation === "div") {
+            answer = firstnum / secondnum; 
+        } else if (operation === "mod") {
+            answer = firstnum % secondnum;
+        } else {
+            answer = "INVALID OPERATION";
+        }
+
+        console.log(answer);
+        </script>
+        
+        
+</body>
+</html> 
