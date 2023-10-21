@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+<script>
+    Var move = prompt("Does it move? (yes/no)");
+
+if (move === "yes") {
+  var should = prompt("Should it? (yes/no)");
+  if (should === "yes") {
+    console.log("No problem");
+  } else if (should === "no") {
+    console.log("Then use duct tape!!!");
+  } else {
+    console.log("Answer my question! You didn't type yes or no.");
+  }
+} else if (move === "no") {
+  // Made a new Variable Can fix  and nesting
+  var canFix = prompt("Can you fix it? (yes/no)");
+  if (canFix === "yes") {
+    console.log("Then fix it.");
+  } else if (canFix === "no") {
+    console.log("Then use duct tape!!!");
+  } else {
+    console.log("Answer my question! You didn't type yes or no.");
+  }
+  
+} else {
+  console.log("Answer my question! You didn't type yes or no.");
+}
+</body>
+</html>
